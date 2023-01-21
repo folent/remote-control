@@ -1,8 +1,8 @@
 import { mouse, left, right, up, down } from "@nut-tree/nut-js";
-import { getPositionMouse } from "./getPositionMouse";
-import { drawSquare } from "./drawSquare";
-import { drawCircle } from "./drawCircle"
-import { printScreen } from "./printScreen";
+import { getPositionMouse } from "./getPositionMouse.js";
+import { drawSquare } from "./drawSquare.js";
+import { drawCircle } from "./drawCircle.js"
+import { printScreen } from "./printScreen.js";
 
 export const ACTIONS = {
     mouse_position: (ws) => getPositionMouse(ws),
