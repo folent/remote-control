@@ -13,5 +13,5 @@ export const drawCircle = async (radius: number) => {
     }
     
     await mouse.move([startPosition]);
-    await mouse.drag([...coords]);
+    await mouse.drag(coords);
 }
